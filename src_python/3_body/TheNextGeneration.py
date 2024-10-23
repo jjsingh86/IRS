@@ -595,11 +595,11 @@ for basisType in basisTypes:
                       fn=set.resultsDirectory + 'INLUCN_%s' % suf,
                       fr=lfrags,
                       indep=-1)
-        generate_INOB_file(sfrags,
+        generate_INOB_file_indep(sfrags,
                            8,
                            fn=set.resultsDirectory + 'INOB_%s' % suf,
                            indep=-1)
-        generate_INOB_file(sfrags,
+        generate_INOB_file_indep(sfrags,
                            15,
                            fn=set.resultsDirectory + 'DRINOB_%s' % suf,
                            indep=-1)

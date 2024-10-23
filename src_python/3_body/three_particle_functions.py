@@ -498,7 +498,9 @@ def generate_INEN_bdg(bas,
         outfile.write(head + out)
 
 def generate_INOB_file_indep(fr, anzO, fn='INOB', indep=0):
-    # INDEP = -1 (write header, parallel) +1 (write single files) 0 (serial version)
+    # INDEP = -1 (write header, parallel) 
+    #         +1 (write single files) 
+    #          0 (serial version)
     #                IBOUND => ISOSPIN coupling allowed
     out = '  0  2  2  1%3d\n' % indep
     for n in range(anzO):
